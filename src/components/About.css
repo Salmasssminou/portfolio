@@ -1,0 +1,121 @@
+.about {
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.about-title-accent {
+  color: var(--accent-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.about-text {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+}
+
+/* Facts row */
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.about-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-fact-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+}
+
+.about-fact-label {
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+/* Cards */
+.about-right {
+  display: grid;
+  gap: 16px;
+}
+
+.about-card {
+  display: flex;
+  gap: 18px;
+  padding: 24px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.about-card:hover {
+  border-color: var(--accent-primary);
+  transform: translateX(6px);
+  box-shadow: var(--shadow-md);
+}
+
+.about-card-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+  color: var(--accent-primary);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.about-card:hover .about-card-icon {
+  background: var(--accent-primary);
+  color: var(--text-inverse);
+}
+
+.about-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.about-card-text {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-facts {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

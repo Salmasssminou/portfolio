@@ -1,0 +1,15 @@
+{
+  "name": "Salma Sminou",
+  "title": "Full-Stack Developer",
+  "subtitle": "Computer Science Graduate | Building practical tools for real-world problems",
+  "photo": "/images/profile.jpg",
+  "cv": "/cv/Salma_Sminou_CV.pdf",
+  "email": "salmasminou@gmail.com",
+  "location": "Meknes, Morocco",
+  "about": "I'm a Computer Science graduate from Nanjing University of Posts and Telecommunications (NJUPT) with a passion for building practical software that solves real problems. My work spans full-stack web development, embedded systems, and data visualization — from internal tools at a manufacturing plant to robotics teaching assistantships. I enjoy learning new technologies independently and turning complex problems into simple, elegant solutions.",
+  "socials": {
+    "github": "https://github.com/Salmasssminou",
+    "linkedin": "https://www.linkedin.com/in/salma-sminou/",
+    "email": "mailto:salmasminou@gmail.com"
+  }
+}

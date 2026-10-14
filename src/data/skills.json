@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "items": ["Python", "JavaScript", "Java", "C++", "HTML", "CSS", "SQL"]
+    },
+    {
+      "name": "Frontend",
+      "items": ["React", "Vite", "ApexCharts", "Tailwind CSS", "Responsive Design"]
+    },
+    {
+      "name": "Backend",
+      "items": ["FastAPI", "Express.js", "Node.js", "REST APIs"]
+    },
+    {
+      "name": "Databases",
+      "items": ["SQLite", "MySQL", "MongoDB"]
+    },
+    {
+      "name": "Tools & Others",
+      "items": ["Git", "GitHub", "Qt", "Unity", "Arduino", "ESP32", "Excel Automation"]
+    }
+  ]
+}

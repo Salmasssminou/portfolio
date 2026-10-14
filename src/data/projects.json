@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "title": "HSE & Environmental Dashboard",
+      "subtitle": "Full-Stack Safety & Environment Reporting",
+      "description": "A modern web dashboard for tracking Health, Safety & Environment indicators, replacing manual Excel-based reporting. 6 KPI cards with trend indicators, 6 interactive charts, an Injuries module, an Action Plan tracker with full CRUD, multi-year filtering, CSV import/export, and dashboard capture as PNG. Runs entirely offline.",
+      "tech": ["Python 3.12", "FastAPI", "React 19", "Vite", "ApexCharts", "SQLite"],
+      "images": [
+        "/images/projects/hse-dashboard/1.jpg",
+        "/images/projects/hse-dashboard/2.jpg",
+        "/images/projects/hse-dashboard/3.jpg",
+        "/images/projects/hse-dashboard/4.jpg",
+        "/images/projects/hse-dashboard/5.jpg",
+        "/images/projects/hse-dashboard/6.jpg",
+        "/images/projects/hse-dashboard/7.jpg",
+        "/images/projects/hse-dashboard/8.jpg",
+        "/images/projects/hse-dashboard/9.jpg"
+      ],
+      "github": "https://github.com/Salmasssminou/hse-dashboard",
+      "demo": "",
+      "status": "completed",
+      "highlights": [
+        "6 KPIs + 6 interactive charts",
+        "Injuries module with body-part visualization",
+        "Action Plan tracker with full CRUD",
+        "Multi-year filtering & CSV import/export"
+      ]
+    },
+    {
+      "title": "RFQ Manager",
+      "subtitle": "Automotive Wire Harness Connector Management",
+      "description": "A local, offline-first web application that replaces manual Excel work for the RFQ process for automotive wire harness connectors. Stores every connector (EPN) permanently in SQLite, enables reuse across future RFQs, preserves comments and statuses, supports multiple Excel samples per EPN, and includes an Excel-like editor plus a database admin UI.",
+      "tech": ["Python 3.12", "SQLite", "Streamlit", "openpyxl", "streamlit-aggrid"],
+      "images": [
+        "/images/projects/rfq-manager/1.jpg",
+        "/images/projects/rfq-manager/2.jpg",
+        "/images/projects/rfq-manager/3.jpg",
+        "/images/projects/rfq-manager/4.jpg",
+        "/images/projects/rfq-manager/5.jpg",
+        "/images/projects/rfq-manager/6.jpg"
+      ],
+      "github": "https://github.com/Salmasssminou/rfq-manager-lear",
+      "demo": "",
+      "status": "completed",
+      "highlights": [
+        "Reusable connector records — no more retyping",
+        "Status workflow (Pending / In Progress / Done)",
+        "Excel-like CONDUCTEUR editor",
+        "Admin UI for schema & raw data"
+      ]
+    }
+  ]
+}

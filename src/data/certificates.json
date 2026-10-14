@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "title": "Bachelor's Degree in Computer Science and Technology",
+      "issuer": "Nanjing University of Posts and Telecommunications",
+      "date": "2025",
+      "image": "/images/certificates/diploma.jpg",
+      "link": ""
+    },
+    {
+      "title": "HSK 4 — Chinese Language Proficiency",
+      "issuer": "Hanban / Chinese Ministry of Education",
+      "date": "",
+      "image": "/images/certificates/hsk4.jpg",
+      "link": ""
+    }
+  ]
+}

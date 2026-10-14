@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "role": "HSE Team Member",
+      "company": "Manufacturing Plant",
+      "location": "Meknes, Morocco",
+      "period": "2025 — Present",
+      "description": "Applying technical skills to industrial HSE challenges. Built internal tools for RFQ management and HSE data visualization, reducing repetitive manual work.",
+      "highlights": [
+        "Developed a local RFQ Manager for wire-harness connector requests",
+        "Built an HSE & Environmental Dashboard replacing Excel-based reporting"
+      ]
+    },
+    {
+      "role": "Robotics Teaching Assistant",
+      "company": "Nanjing University of Posts and Telecommunications",
+      "location": "Nanjing, China",
+      "period": "3 months",
+      "description": "Taught weekly practical robotics sessions to students, covering Arduino UNO, sensors, servomotors, and Wi-Fi-based control systems.",
+      "highlights": [
+        "Introduced Arduino UNO, sensors, and servomotors after theory lessons",
+        "Guided students through ESP32 boards and Wi-Fi dashboards",
+        "Supported final project: ESP32-CAM car controlled over Wi-Fi"
+      ]
+    },
+    {
+      "role": "Technology Intern",
+      "company": "Technology Company",
+      "location": "Nanjing, China",
+      "period": "Internship",
+      "description": "Gained hands-on industry experience in software development practices.",
+      "highlights": []
+    }
+  ]
+}
